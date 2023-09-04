@@ -17,10 +17,10 @@ class BrowserMethod():
         driver.fullscreen_window()
         driver.refresh()
 
-        # driver.find_element(By.LINK_TEXT,"About").click()
-        # driver.back()
+        driver.find_element(By.PARTIAL_LINK_TEXT,"Contact").click()
+        driver.back()
 
-        # driver.forward()
+        driver.forward()
 
         driver.minimize_window()
         time.sleep(5)
