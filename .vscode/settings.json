@@ -9,9 +9,10 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "testconnection ",
-            "database": "testdb",
-            "username": "root"
+            "database": "booking",
+            "username": "root",
+            "name": "test",
+            "password": ""
         }
     ]
 }
