@@ -15,7 +15,30 @@ class Register():
         driver.find_element(By.CSS_SELECTOR,"div[id='jobseeker_register'] a[class='btn bg-secondary text-white w-50']").click()
         time.sleep(3)
 
-        jobcat_dropdowm = driver.find_element(By.ID,"//div[@class='selectize-input items required has-options full has-items']").click()
+      
+        job_categorydd = driver.find_element(By.CLASS_NAME,"selectize-input")
+        job_categorydd.click()
 
+        # dd = Select(job_categorydd)
+
+        desired_option_value = "133"
+        option_xpath = "//div[normalize-space()='Fashion / Textile Designing']"
+        driver.find_element(By.XPATH,option_xpath).click()
+        time.sleep(3)
+
+        desired_option_value1 = "212"
+        driver.find_element(By.XPATH,"//div[normalize-space()='IT and Telecommunication']").click()
+        time.sleep(3)
+
+        # dd.select_by_index(2)
+        # time.sleep(3)
+
+        # dd.select_by_value(100)
+        # time.sleep(3)
+
+        # dd.select_by_visible_text("Banking / Insurance / Financial Services")
+        # time.sleep(3)
+       
+        
 job_category = Register()
 job_category.register_dropdown()
