@@ -52,5 +52,5 @@ class Demo_wait():
 handle_waits = Demo_wait()
 # handle_waits.time_sleep_wait()
 # handle_waits.implicit_wait()
-# handle_waits.explict_wait()
-handle_waits.fluent_wait()
+handle_waits.explict_wait()
+# handle_waits.fluent_wait()
