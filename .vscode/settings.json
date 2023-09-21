@@ -1,0 +1,8 @@
+{
+    "sqltools.connections": [],
+    "python.testing.pytestArgs": [
+        "learnpytest"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
