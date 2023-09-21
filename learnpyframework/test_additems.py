@@ -1,3 +1,6 @@
+import pytest
+
+@pytest.mark.sanity
 def testLogin():
     print("Login Successful")
 
